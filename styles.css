@@ -92,19 +92,19 @@ body {
 }
 
 h1 {
-  font-size: clamp(1.5rem, 1.5rem + 2vw, 2rem);
+  font-size: clamp(2rem, 100%, 3rem);
   text-align: center;
-  padding-inline: 1.8em;
+  padding-inline: 1em;
   font-weight: 700;
-  margin-block-end: 4.375em;
+  margin-block-end: 3em;
   font-family: var(--font-heading);
 }
 
 h2 {
   font-family: var(--font-heading);
   text-align: center;
-  font-size: clamp(1.375rem, 1.375rem + 2vw, 1.875rem );
-  margin-block-end: 1.875em;
+  font-size: clamp(1.625rem, 1.537rem + 0.3756vw, 1.875rem);
+  margin-block-end: 0.8em;
 }
 
 h3 {
@@ -124,7 +124,7 @@ main {
 .main__para {
   color: var(--black);
   font-size: 1.125rem;
-  font-size: clamp(1.125rem, 1.125rem + 2vw, 1.3125rem  );
+  font-size: clamp(0.875rem, 100%, 1.125rem);
   font-weight: 400;
   text-align: center;
   margin-inline: 1em;
@@ -202,6 +202,7 @@ main {
 }
 
 .container p {
+  font-size: clamp(0.9375rem, 0.8715rem + 0.2817vw, 1.125rem);;
   text-align: center;
   color: var(--neutral--gray-blue) ;
 }
@@ -223,7 +224,7 @@ main {
   border-radius: 1.25rem;
   margin-inline: 0.5em;
   position: relative;
-  top: 5em;
+  top: 5.5em;
   z-index: 1;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
 }
@@ -337,6 +338,11 @@ footer p:last-of-type {
 }
 
 @media only screen and (min-width: 1200px) {
+  
+  main {
+    background-image: url(./images/bg-hero-desktop.svg);
+  }
+
   main section {
     display: flex;
     margin-inline: 5em;
@@ -361,6 +367,7 @@ footer p:last-of-type {
 
   .main__btn {
     margin-inline-end: 20.5em;
+    padding-inline: 2.8em;
     
   }
 
