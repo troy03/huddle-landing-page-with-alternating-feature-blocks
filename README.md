@@ -69,6 +69,7 @@ According to MDN the filter CSS property applies graphical effects like blur or 
   filter: invert(46%) sepia(49%) saturate(2128%) hue-rotate(295deg) brightness(102%) contrast(101%);
   cursor: pointer
 }
+```
 
 ### Continued development
 
